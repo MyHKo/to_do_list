@@ -22,3 +22,18 @@ html, body {
     text-align: center;
     box-sizing: border-box;
 }
+
+.input_container input{
+    height: 30px;
+    width: 60%;
+    outline-color: white;
+}
+
+.input_container button{
+    width: 100px;
+    height: 35px;
+    border-radius: 0px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
