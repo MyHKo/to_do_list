@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    background-color: #6394ef;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to_do_container {
+    width: 80%;
+    height: 60%;
+    padding: 50px;
+    background-color: #0b1174;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
