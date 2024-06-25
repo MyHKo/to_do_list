@@ -23,17 +23,39 @@ html, body {
     box-sizing: border-box;
 }
 
+.input_container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .input_container input{
     height: 30px;
-    width: 60%;
+    width: calc(100% - 100px);
+    box-sizing: border-box;
     outline-color: white;
 }
 
 .input_container button{
-    width: 100px;
-    height: 35px;
-    border-radius: 0px;
+    width: 95px;
+    height: 30px;
     background-color: orangered;
     color: white;
     border: none;
+    box-sizing: border-box;
+}
+
+.todo_list {
+    list-style-type: none;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.delBut {
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
 }
